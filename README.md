@@ -19,7 +19,9 @@ pip install flask
 pip install flask-cors
 pip install groq
 ```
+After installing the packages, clone the the repository with "git clone https://github.com/Halbedaiwi/EZRead-chrome-extension.git".
 ## API Key Setup
+
 EZRead uses the powerful Llama 3.1 model from Meta. To use this LLM, createa an API key with [GroqCloud](https://console.groq.com/keys). 
 Make sure to set the GROQ_API_KEY in your environment to use the Groq API within the "api_backend.py" folder.
 
